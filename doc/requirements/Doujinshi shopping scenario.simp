@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.45" multi-file="no" uid="simpb1af67f14b7f48a890181cc6e3e6cf50">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="" type="DrawingItem" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="LineItem" />
+        <value>5</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>131</value>
+      </counter>
+      <counter>
+        <item-type type-id="shape" type="AbstractShapeItem" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="dfd-data-flow" type="DfdDataFlow" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>8</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.DataFlowDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-abcb564713f84a4c947ccdd974ca2b64" name="" task-id-sequence="0">
+    <persons>
+      <person id="P987e8052edc84cb683076d834daa2778">
+        <first-name>Tzu-Tan</first-name>
+        <last-name>Wei</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-c84879f8cc024a8ead68a7538eb0ec65" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="pe8ecc7c435394238a94deefc7e9430ec_587201036" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>05/22/2020 15:22:34</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="data-flow" id="p5e99f8685c2b463e9eeba8d5025ba5df_287769512" name="DataFlowDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>05/22/2020 15:22:34</creation-date>
+          <change-date>05/22/2020 15:49:16</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di726523037118674891" cid="DFF001" type="dfd-data-flow" name="1. Surf the Internet" style-class="" visibility="package" change-tracking-state="added" creator="P987e8052edc84cb683076d834daa2778" creation-date="05/22/2020 15:35:10" from="di787627882816362676" to="di649693179955474208">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="3" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="di336424637600515656" cid="DFF002" type="dfd-data-flow" name="2. Discover interested doujinshi" style-class="" visibility="package" change-tracking-state="added" creator="P987e8052edc84cb683076d834daa2778" creation-date="05/22/2020 15:35:50" from="di649693179955474208" to="di787627882816362676">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="3" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="di777220236514362796" cid="DFF003" type="dfd-data-flow" name="3. Search doujinshi in online shops" style-class="" visibility="package" change-tracking-state="added" creator="P987e8052edc84cb683076d834daa2778" creation-date="05/22/2020 15:39:49" from="di787627882816362676" to="di556539278785513072">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="3" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="di763857171403008362" cid="DFF004" type="dfd-data-flow" name="4. Acquire shopping page information" style-class="" visibility="package" change-tracking-state="added" creator="P987e8052edc84cb683076d834daa2778" creation-date="05/22/2020 15:41:32" from="di556539278785513072">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="3" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="di175062553617713970" cid="DFF005" type="dfd-data-flow" name="5. Offer shopping page information and order the doujinshi" style-class="" visibility="package" change-tracking-state="added" creator="P987e8052edc84cb683076d834daa2778" creation-date="05/22/2020 15:49:16" from="di787627882816362676" to="di763128346437035691">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="3" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+        </abstract-items>
+        <layer id="13a483283d5e4144ba91e55ff6874181" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di787627882816362676" iid="8969a970024e4957a52c990137b779f2" name="Element1" name-style="" creation-date="05/22/2020 15:22:46" order-index="0" presentation-style="custom" type="image">
+            <layout ax="266" ay="337" awidth="128" aheight="128" x="266" y="337" width="128" height="128" />
+            <image type="Embedded">iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH5AUWBxUNsNj4KwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAwfSURBVHhe7Z0FzDVHFYZ/nOLuUByKu7tLcCgUKF4kuENIgKIluBMS3N1Lg7tDgVA8bQnu7vo+gc0/TM/MzuzdvXdn97zJk9CP3fvv7M6OHNs9C9cVxLvEb8SR4vni8iLWxcQzxLfEb8X7xfWEq1GdTLxQ/Ev82+Db4lXipeJr//ubxevE6YRrZjqbeLZ4t+BBPk4cKG4rnix+KqwHOgRGj2cJfv/24mDBv/le8SKxn3BtUdcVfxDWw9oFfxd3FK4tiHn5L8J6ELvkn+JOwjWhuMF/FtYDmAP/EA8RxxKuDcQNvJTYX9xPPFUcLqybPke+KZ4rHihYk7DrOI5wFejigu2adWNb5kfiGsKV0RnFL4V1A5fAn8T5hCuhVwvrxi0JDEwuQ8yTKaPN0riRcAU6jVjivJ8CI9XZxeq1j7iL+IGwbtSS+YW4tziJWJ3OL7DTY2K1bs6awKL5MnEJsQodIOZszNkVmJPvKxYt5np/69P8VZxTLFbM91bDnb08UixWrxBWo529LNpO8F1hNdrZy+/EccXihKHHarBzTG4qFqUTi88Jq7HOMSFc7bRiESKe7mPCaqiThjjFc4umdSFxtLAa6PTzK3E10aSwdS/ZtbstMJpdQDSnpwmrQU49hKY3J0KmrcY49XxRNKc3C6sxTj0fFs2JpA2rMU49REo1pwcIqzFOPU8Uzen+wmqMU8+TRHMiyMFqjFMPC+qmdGZBCLTVmE05VLxJjJn8uSnfEW8ULNamaDcZR+cRzei1wmrIpnxCdCKWbtdh5EQxP1qEWT+kpd9ZfF1Y5wzlHaIJXVJMFd59YxGKFDLmR+tY+Iognfu8gqTSjwjruA6u+5UCzyVm7AeJVMAq0Tt3ECldS1jnbcIVxew11dx/lDi2sMQb90fRHUtu3m1EfDwd5j7CSi3nQV9fxCJymY4QTjk/EVcVOfFvjT0KMLLOXn1v2VAeL3I6k+CNvKboS8Q8h2BIJaUbW/sLxClETri0byZuLU7KHwr0MGG1ZSifErPXc4R18ZtCKPnY4u0+3n//5yTCITbmdEhHnb2Iav2bsBowFAIkWhV2fKtNtRA2zlqmCY1tBn6eaFVPEVabaiGRphmdSoxZw6flGDnqGVltqgHbAjkVTYntlNWYIZxVtCpeBqtNNTQZD/BYYTWmlp+L1rVpWFyTzqAnCKsxtXxAtC62nFbbSqFGUnMay0zbxNanRzxAq22lvEU0JxwjVmP6IIT8BgJLG0YXikb1CcPMhQVGoMuKk4sxRYz+lQULukuLPqNRLOoQY6TCHM2C9uPCanuKT4vmhOPGakwOkkdOIErFA8FVGheOxML3SYEfIGU+7hPWRJJZPy9iYw7eOTr4zcWQmoDHF58V4W/m4L40J6pyW43JUVpGjTeQCuDWb8R8RuwraoSpmAdv/V7Mh8SQYtKMcNbvWbxYNCe2bj8WVoMsyCEoeZtOLWqdLFxHqRUNvzvOHut3UuCowhdRI9paEtPAtVMYu0nxJh0hrIbFlES+MpwPXVvgIcShkxO+gW8I6/w+GKZr/Qqkglu/1UFH5x42LRZo7xRWA0PeJvrEQio+D4sjNgfecIJEziUeIaxKJHgUefNYlLEYo/YwLuBuiiC4Iz6H9KyHCnwc/D6FHilNH7qfO3A11+j1Iv6NjvcIgksWIRY9fW/u+0Sf4reTL3ukiivxoH4mwuPpLJRsDf/W8WURdxqmglQoFruB34vw+O+LmkVh6sXA7XtCsSj11Qf4nsiJ/Lj4nLuLnCg2HZ9TA/7/nHjj43MuI0qVmh6bTQjt0w+F1eCO3Gr9diI8lkCOE4mc2MphSg7PK4W3v28LyZQQb0H7OmUnbAtsJ8NzgYXhkK1lEyKaN25wCHN3Sg8W4bF83KlEDKfheSG5CN4wADWnuOwN64gSWaMHlKyFmtW9hNXoDrY8pxSW7iniY0sUD7N0nDCsi+0qi7x4/iegtETxCMM3AvrEboStY3heB99HWKx4uJRItRrekXJ9Yh6Oj2U1nxNbqNiKh3XQEkGk4XFYE88icmK+D8+BktgFPjQVnwdMa+RULFqYb/sKR1BbIA7s5K2Jh2z20akAUOZRhtPweB5qyqjCtwr4/8Pj2aalRCUv/Bbh8awHcls3rulRwooTZEdxC7EKYc1jTs99r6+z5VMnh20ksoJM3irigkqMNHzWLT6WrKKc4g4DLxGxc+kMwjJFv0bEYiHJSMLDZasbnwPUT1zttwmvLphvrRvT0YWEE2Vr1Rlmf/92QewgrlPsA/ExBFX2TRkkg1hfJGN9wAKW38e3by0euS6rzCs5BfGxIfgqug6+WvHG5kaDsEIGo4J1TB8s9EpECXfr/D7YplrKVUr5qlhMObhNxYIqFUPP38O5m90Eb7R1bAznYiquEdOTtUe3IEXsIGGJnUbqG4dMN8QLugK9XFg3C+JS6nwUmuHTOraDLSCLziG6kugrbvlRweftUrIskbz1NxEuQywOU9ZCy1vIqpqOcIjArk6HwInCd36vI4YGg4TChI3zh/Rvdh0s9B4jSiKV4kUlCTO1buPViVU/26t4OuC/W8qRZ26PM6QWbeUbW9bwiX2gFbHojK/fh/4KYWiJc/MxuxK0MXexrYuvHSfPlImoixRzbXgTgepjc9ddRXzdTxeuSrFgiudRAjrmPAqw8IwDV9iyNlXjZ07CORTeTJjzKGCFrWHqdQ0UsX6x0Yf5dI5GFBxBcciZv/0jiNz48KbCHGPlrRQwjFuuDYWrNq43gF0Aa91cRMwiZuHwGvlvf/tHkpVtTNx8X6z/NsSi1PJoHixcI4kwactjOIfiCVaEDzuBxYV271rE4ltewNqEjDFFfGF8PUQWXU64JpBVeYS5tjSxdEyR4GkFhzxTuCYSJmLLTcsi8SpiW6IkrhV5RPBKC+bqpkVwiJXBS2DlNurpXkTEaWdAxDNha66RlNtC4ae3hl9GggPEVCK4M84JBGICc9vS2hoFqxW29FsJgjtYTOVuKrkC8d67g2KVY3rfuC62dXGcAhA+lssjpLPSFiKIqHi+2NSvTcUDJUs3vLns9XNlYyjTkoq7+4Kgts+mwsiTqutDB7ylSAnXcLx9pTzMLhatsxUZPIRyhTcphJCsnKjNz2fXrXOBkPH9RK24LkzOqQBUpgI6bU65eomEsC8+EygnhkJy4axiCyG4hPtW+FQJo6i0dT4wdBNXeA9hxe93IlfwbuIwEWcKhRwp+DdzYkHaVzibjpuKKl60iJnLvfUxrPr7cvXI4LHcxxa/FkwRBHoCW8vSbx3z4YZUEmsnYhlSxSgsGA36fnMxIkMnlR2bg4VhSRk5FloUnLB+YxMo+VqSv8e8T2qb9Rs5GMGGTFVN6YYi9uzVwJuCMahP2OFJ1a6pVJaCN5mvf5TY9klWfYOwfqcEjEuLXSCyP++bE0ugE5Q6WtgKEmHMdJMrCBHDsSSAkjZeup1kdNrk4Xewq+krT9OcuJGl6VYlUMGjNsmCkjIkjPA2E6hBtjBDNb9FB+FvhHNfW/SVn4lFxjD7fOtah8DOo+XvJPyfGPbHePNjCBPHaLRr8baWFH2shZGALW7TYqtkmU7H5IMil6M3lfAJsF20rmksSE2f4oNZWxGBm0NW+0Ngn08O/zZuFulr5Ajm7ARjwqdpx66AvhWNsSCqhYdCImfO2DNUWO3wMaRMz1NC525KWNOshmwLHhKBGWMUYCBrmYjfml3EFBwomtDpBTV2rUZsG2wOpI/XfuQBEXD6cIHV0PrtbUO8QRMVRXKFHnYFOwYqf5RE62BjIPvICvrYNbP/dsAFxZj7/bGhoDMfm7aKR/A3UrumMCOPBfYBCmHPVrtY+A2BUi3h18LZbx8urGPnBh/kmqWI1Uv5zucKLuK+DzfMDYxqs4wjoJ6fdcHO+FA7YXbKBWQ448IncGaliwrrQp3pIFZxNmLbZF2kMx1UNZ2NWln9LwlC02YjtlXWRTrT8SUxG+XCsp1pwFU8C2FBszJmnGnB82lZNLcuwqesC3SmpzZ0bRLhNbMuzpmeOZTI8Q6wQ7wDrBzvACvHO8DK8Q6wcrwDrBzvACvHO8DK8Q6wcrwDrBzvACvHO8DK8Q6wcrwDrBzvACvHO8DK8Q6wcrwDrBzvACvHO8DK2bAD7NnzH6iYk6WuCVjrAAAAAElFTkSuQmCC</image>
+          </item>
+          <item id="di763128346437035691" iid="64ca7f8dbafd4d6381c666bb0b169084" name="Element2" name-style="" creation-date="05/22/2020 15:22:49" order-index="1" presentation-style="custom" type="image">
+            <layout ax="708" ay="337" awidth="128" aheight="128" x="708" y="337" width="128" height="128" />
+            <image type="Embedded">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</image>
+          </item>
+          <item id="di649693179955474208" iid="1c6fc1e196df4630804031b48648d896" name="Element3" name-style="" creation-date="05/22/2020 15:30:57" order-index="2" presentation-style="custom" type="image">
+            <layout ax="47" ay="110" awidth="128" aheight="128" x="47" y="110" width="128" height="128" />
+            <image type="Embedded">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</image>
+          </item>
+          <item id="di556539278785513072" iid="6b6e3ee3ac1942508a9dd2360ff1cf45" name="Element4" name-style="" creation-date="05/22/2020 15:34:52" order-index="3" presentation-style="custom" type="image">
+            <layout ax="500" ay="110" awidth="128" aheight="128" x="500" y="110" width="128" height="128" />
+            <image type="Embedded">iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH5AUWByIhEgc0/AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAApFSURBVHhe7Z3HyzVJFcY/c84ZFOOs3BjGrAsTjiiI/gsjM+qYMC7cDO5EVETFhAsj6kJUHMwomOM4KgbMGePCjTk8D3wXDs9XfZ9b93R11X2nfvCDl+9Unzpvd7/3dldX13duMplMzjQ3g4+HL4Nvh1+CP4N/gf88L3/+KWSMbdj2cZDbTk6QO8Pnwc/Df8H/HSlPjs/B58A7wcngPAp+CP4blg5oRub8IHwEnAwGD8oXYenAtZCfLA+Dk87cBb4H/heWDtTOH8A3wWfAx8B7w9vAG5yXP/PfGHsmZNsfwlKunezzXZBfN5MOPBX+CZYODr0GvgDeFR7L3eALIXOV+qB/gE+Bk424Pnw9LB0M/lV+BD4crg2/Zq6CS582r4XXg5OG3AJ+FJYOwNfhg2FrHgq/AUs18ARhjZMG3Bp+DepO/xvkLd+Wf33s6/nw71Dr+Sq8FZysyC3hl6Hu7B/B+8NePAD+GGpdX4A3h5MV4Hf+J6HuZN723Rb25nawdHLyq2peE6zAq6Du3I/DkYZpWcsnoNb5CjhJ8DSoO5V/+TeFo8GTQD8JeMcwbxGP5Pbw9zDuUH7nj/CxvwRr/gmMNf8OjlzzsLwbxh3Jq/2eF3yHcjHUuwM+YZxU8CCoAy681TsVOHoYa+fvwjuGyYF8CsYdyEEevaK+BPLjlh+xfErHE+R+8LqwFczNPtgX+2TfrOEJMMJavwnj78CLxMkB8Clb3HH86ymN8P0CxnY7/wzXOiH0gDN3qc+fQ4VDx9pui5HKk4dP9+JO49h+idhmn3+FHEd4KXwgdCfEveBl8P1w38MmtcTHYGzzDjjZwx3hP2DcaUsPdmKbGvUT4pC/8EMswQkqsQ0vDnmnMFngchh32HfgErEdzR7AQ92dQPrvS3wbxnaXwskC+pHJ5/lLxHZ0x7Ef4UsufYVouyVeAmO7pa+0az03gXr/vG8yR2xHl6g9IQ69ZtDtlrg7jO04nnEjOBH0qpnTuPYR29JDiFf1un3tXYNuvw+OYMa2D4ETgc/X4056I9xHbEtr2XL7N8PYltPMJ8LbYNxJnJy5j9iW1rLl9lfA2PYtcCLoM/9Hw33EtrSWLbfnW0axLecKTITvw7iT7gH3EdvSWrbcnheise334PA8Cf4axsK3lDNt9qHta9lyew7+aPut/BV8IqyGG5YSbuUN4T60fS1bbs/bPm2/pb+E1ZQSbek8Ada1mlKSLXWzaLR9LVtu3/MrYGc16QSVfBfG/u4J9xHb0lq23J7vHca2/F1bE/uj1aQTVPJhGPs7y7eBfIW9NbE/Wk06QSWvgbE/vsm7j9iW1rLl9joQ9GrYmtgfrSadoJJnw9gfX9HeR2xLa9lye478xbY8IVoT+6PVpBNUwokfsT++n7+P2Ja2fJizY9/DpH3ow6AWby8rsT9aTTpBJXwFjIs1xT75fv4SsV107ce5hz5OXkIfB/N33OKVsdgnrSad4Ai4k2OfnF69xKGjlDoFbHdCaDsS/8JrZhixliV4Isa2/B23IPZJq0knOAJOl4p97psS9mTIadmx/SEuTek6dkoZa+Cw+RK9poTFPmk1mqCXblWutaeAOWtmGeuk0J5WU0rSw6tgDVvNCTwEvsVcytnDakpJesgXQ7gsy7G0mhPoeCQs5e9lNaUkveSaPGtcOetF3h/PW7pIzMBar4al36WX1aQTJOArVP+BsX/OGTwVXgRj7fxdtn4tLPZPq0knSPIGGPvnlHF+JI8O32zWt5teB7cm9k+rSSdIwlXB9DaPCzK5mUI9uQPkquOx5t/CHquGxRpoNekEK8DVQHWdAC7DMuIy7lwV7Csw1sraey0RE+ug1aQTrMTLodbCd+1HOgl48HVWM70S9kJrqSadYCWuA98HtR4uyMiP3N5w5hLXBdT6PgBZey+0nmrSCVaEf2E84FoTV+fgmjy94AWffudTfhX0XihSa6omnWBluAbvZ6DWxbsDPjTi08StYF+81dOrffppOMJ6wVpXNS7BVu8NxHntN4Y6dWwnB17cc4M14Ajft2CpBg4osUbSY/9EtF01LsGW7w3Eee38Dx64eqjeHezkGgN8CLM2zLk0ts+BnlfC+CnUa//s0DbVuAQab63C/wnsN7DUlvJR8oshJ2QcC7flAg/MVeqDsobHQqXUtqWKi1tcAo23tgTn23NBSR02Vjkli/PyngU5Q/c+kFfvfPmE8ueLIGNs81ao07hU9sn/MmZpYKq0TUsVF7e4BC6epSb/fSGf9uk2reQ9v1v4UbdZG5ffxS0ugYtnOSY/L9A4ZsBlWHT7rMz5XnjohaZuvzYuv4tbXAIXz5LJz+cIT4efhaVbtUPltrz15DSu2vF8zbU2Lr+LW1wCF8+yVn6+mMkJJc+F/M7mqB2vmjk7l3cS/C7nz/w3xt4JuYQL1/HJLOa0Vv1LuPwubnEJNH6sze5jO+PqX3ucQHFxi0ug8YxN7mM74+pfe5xAcXGLS6DxrIqLj46rX+NZFRe3uAQaz6q4+Oi4+jWeVXFxi0vQOz46rv7ecYtL0Ds+Oq7+3nGLS9A7Pjqu/t5xi0vQOz46rv7ecYtL0Dveex3DnceOY/SOW1yC3vEtn7c7jxnH6B23uASjxXurjB63uASjxXurjB63uAQab63i4q1x/Wu8tYqLW1wCjbdWcfHWuP413lrFxS0ugcZbq7h4a1z/Gm+t4uIWl0DjrVVcvDWuf423VnFxi0vg4llcfhdfa5yg1X1+FpffxS0ugYtncfldfM1xghb3+Vlcfhe3uAQunsXlr41nVbLxLC6/i1tcAhfP4vLXxrMq2XgWl9/FLS6Bxo+111i6w22fjc85gcEeY+kOt302vvazDMXFLS6BxlurZOMOt31tvLWKi1tcAo23VsnGHW772nhrFRe3uARrx51KbTyrUht3Kq3jFpdg7bhTqY1nVWrjTqV13OISjB4ffSCod9ziEowe563lGicBD/4lUNF2yuhxi0swerw1rv/R4xaXYPR4a1z/o8ctLsHo8da4/kePW1yC0eOtcf2PHre4BBpvrVJqU3LpWUMW7UfReGsVF7e4BBpvrVJqs2TpNi6L9qFovLWKi1tcgrUfZuzzkPtw59q4/KPtn2pcgrXus52H3oc718blH23/VJNO0BhXn4tnaZ0/S7q+dILGuPpcPEvr/FnS9aUTNMbV5+JZWufPkq4vnaAxrj4Xz9I6f5Z0fZrg1F2bUh8jW00pySm7NqU+RraaUpJTdYuBoNGtppTkFF26T85S6mtkq0knaEzv+nr370jXl07QmN719e7fka4vnaAxvevr3b8jXV86QWN619e7f0e6vnSCxvSur3f/jnR96QSN6V1f7/4d6frSCRrTu77e/TvS9aUTNKZ3fb37d1TXN8rau9O2Ls6R3HIK07SvxaHxUsPp2fUCSo2mZ9cLsA0mJ409vrbB5KSxx9c2mJw09vjaBpOTxh5fbTA9215AqdH07HoBcyDo2mNxIGird9mmfW01R3IymZwY5879H0g4ZEZ4fegpAAAAAElFTkSuQmCC</image>
+          </item>
+          <item id="di726523037118674891" iid="d3510602a0564ddc80eb49b8afcb5523" name-style="" creation-date="05/22/2020 15:35:10" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="266" y1="401" x2="111" y2="238" start-border-pos="0.875" end-border-pos="0.625" name-position="-57,20">
+              <points>
+                <point x="266" y="401" />
+                <point x="111" y="238" />
+              </points>
+            </layout>
+            <relation from="di787627882816362676" from-iid="8969a970024e4957a52c990137b779f2" to="di649693179955474208" to-iid="1c6fc1e196df4630804031b48648d896" />
+          </item>
+          <item id="di336424637600515656" iid="e128dc8365ef49318424c793c18020fe" name-style="" creation-date="05/22/2020 15:35:50" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="175" y1="238" x2="266" y2="337" start-border-pos="0.5" end-border-pos="0" name-position="21,-60" name-width="161">
+              <points>
+                <point x="175" y="238" />
+                <point x="266" y="337" />
+              </points>
+            </layout>
+            <relation from="di649693179955474208" from-iid="1c6fc1e196df4630804031b48648d896" to="di787627882816362676" to-iid="8969a970024e4957a52c990137b779f2" />
+          </item>
+          <item id="di777220236514362796" iid="c4928638507545e084ac02b1bc9f1c7a" name-style="" creation-date="05/22/2020 15:39:49" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="394" y1="337" x2="500" y2="238" start-border-pos="0.25" end-border-pos="0.75" name-position="-66,-4" name-width="136">
+              <points>
+                <point x="394" y="337" />
+                <point x="500" y="238" />
+              </points>
+            </layout>
+            <relation from="di787627882816362676" from-iid="8969a970024e4957a52c990137b779f2" to="di556539278785513072" to-iid="6b6e3ee3ac1942508a9dd2360ff1cf45" />
+          </item>
+          <item id="di763857171403008362" iid="ac9d2dc724784f2baed24684a3e243ce" name-style="" creation-date="05/22/2020 15:41:32" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="564" y1="238" x2="394" y2="401" start-border-pos="0.625" end-border-pos="0.375" name-position="86,19">
+              <points>
+                <point x="564" y="238" />
+                <point x="394" y="401" />
+              </points>
+            </layout>
+            <relation from="di556539278785513072" from-iid="6b6e3ee3ac1942508a9dd2360ff1cf45" />
+          </item>
+          <item id="di175062553617713970" iid="ad3fa392ae56477588012b8630ec91db" name-style="" creation-date="05/22/2020 15:49:16" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="394" y1="465" x2="708" y2="465" start-border-pos="0.5" end-border-pos="0.75" name-position="-4,-9" name-width="260">
+              <points>
+                <point x="394" y="465" />
+                <point x="708" y="465" />
+              </points>
+            </layout>
+            <relation from="di787627882816362676" from-iid="8969a970024e4957a52c990137b779f2" to="di763128346437035691" to-iid="64ca7f8dbafd4d6381c666bb0b169084" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
