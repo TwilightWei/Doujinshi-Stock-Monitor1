@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.45" multi-file="no" uid="simp35c5648b738e4e879482382124d975c8">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="erd-entity" type="ErdEntity" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="erd-entity" type="ErdEntity" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>18</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-relationship" type="ErdRelation" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.EntityRelationshipDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Erd.ErdEntityAttribute</type>
+        <value>6</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-99ef014acb7a4eb98956845078580d42" name="" task-id-sequence="0">
+    <working-schedule uid="ws-277aba21dfe84bdf97c1bc827e09125e" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="Pabacfe268a3548579ea9ca0f57cc9d0c">
+        <first-name>Tzu-Tan</first-name>
+        <last-name>Wei</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-309b79850f374d058ee979b0e02e3b7b" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-926c66f22d524e78af85c0de48625c89" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="p83c7de0d413f4aad8ed576c3ba51bcff_688796110" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Tzu-Tan Wei</author>
+        </authors>
+        <description />
+        <creation-date>05/24/2020 16:46:02</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="entity-relationship" id="p16cbc51e55f449ef9c7fb96ee5878965_497688392" name="EntityRelationshipDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Tzu-Tan Wei</author>
+          </authors>
+          <description />
+          <creation-date>05/24/2020 16:46:02</creation-date>
+          <change-date>05/25/2020 14:40:01</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di136666352580037071" cid="ENT001" type="erd-entity" name="Doujinshi" style-class="" visibility="package" change-tracking-state="added" creator="Pabacfe268a3548579ea9ca0f57cc9d0c" creation-date="05/24/2020 16:46:07">
+            <style class="default" />
+            <entity description="" />
+            <attributes>
+              <attribute uid="a8bb66214653844b28e4a9203527437f9707" cid="ELEM001" name="Product_ID" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="ae3363b8becdc47f6af81d22af98b5e25715" cid="ELEM002" name="Book_Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a08125e39324c4fa7bb7d494aaa7002ac508" cid="ELEM003" name="Shop_Page_URL" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="aeae567d45ce24e3cb47847b856345585623" cid="ELEM004" name="Online_Stock_Status" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="ae4f7d7e69ed141b5875038acc178b4e9530" cid="ELEM005" name="Shop_Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <indexes />
+          </item>
+        </abstract-items>
+        <layer id="3dfca5c388b746d9871ca1fe47d97f25" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di136666352580037071" iid="cfe0960af06a491e9831edf8f4d85384" name-style="" creation-date="05/24/2020 16:46:07" order-index="0" type="entity">
+            <layout ax="153" ay="184" awidth="260" aheight="115" x="153" y="184" width="260" height="115" />
+            <erd-entity show-nullability="true" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
