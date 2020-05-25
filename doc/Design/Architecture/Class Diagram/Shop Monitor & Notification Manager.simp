@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.45" multi-file="no" uid="simp420a631a011649a2b20fbb8e1e9f2d88">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="package" type="UmlPackage" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type stereotype="table" type-id="class" type="UmlClass" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="DrawingItem" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="package" type="UmlPackage" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="UmlGeneralization" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>168</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="AbstractTextItem" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="UmlAssociation" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>11</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>9</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-98b606bce5f840a68b5c5b0404555380" name="" task-id-sequence="0">
+    <working-schedule uid="ws-4612c276a7d3423dadd90a408254990b" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="Pcdf2cc839920425d9a9b49a742bc99b3">
+        <first-name>Tzu-Tan</first-name>
+        <last-name>Wei</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-75bf003b543d4a22bc6a14915c8c2d53" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-fbf0f0ef4e6a48f49acfe89d67ecc026" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Array" tid="" name="Array" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p27cb3d8e1c07426295876e0d06eb2328_366100129" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>05/24/2020 16:38:17</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p5e2c7db6716f4279baad5124104519a6_210922975" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>05/24/2020 16:38:17</creation-date>
+          <change-date>05/25/2020 15:25:30</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di342678200888575631" cid="PKG001" type="package" name="Shop Monitor" style-class="" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/24/2020 16:38:22">
+            <style class="default" />
+          </item>
+          <item id="di298083993925345570" cid="C001" type="class" name="ShopPageParser" style-class="" owner="di342678200888575631" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:06:30">
+            <style class="default" />
+            <operations>
+              <operation id="o8f43cae515ef470facfb23ac7a34e49a388" cid="ELEM003" name="parseStockStatus" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p221f8da063724cfebbf991d981216c38" name="url" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o31387fea1c3f4ebc82a60ab6d6126f6b733" cid="ELEM009" name="parseAll" creation-date="01/01/0001 00:00:00" type="Array" type-id="Array" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pa55950ac14584c8296e9974f4921ea0e" name="url" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di946605818196977242" cid="C002" type="class" name="ToraShopPageParser" style-class="" owner="di342678200888575631" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:08:45">
+            <style class="default" />
+          </item>
+          <item id="di222272084283356672" cid="GNR001" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:08:45" from="di946605818196977242" to="di298083993925345570">
+            <style class="default" />
+          </item>
+          <item id="di475029253495823532" cid="PKG002" type="package" name="Notification Manager" style-class="" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:13:15">
+            <style class="default" />
+          </item>
+          <item id="di645344512140286119" cid="C004" type="class" name="EmailSender" style-class="" owner="di475029253495823532" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:13:52">
+            <style class="default" />
+            <operations>
+              <operation id="o90f62c323cf64ae8a2f70e70875f6e7a313" cid="ELEM002" name="sendAll" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="di760298016757054969" cid="C005" type="class" name="ShopMonitor" style-class="" owner="di342678200888575631" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:16:35">
+            <style class="default" />
+            <operations>
+              <operation id="o9c193bd0e9074af7b77789e98deae034659" cid="ELEM007" name="run" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o3b2b90358add4b19a3a5f18cc6164403679" cid="ELEM004" name="qcuireBookList" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="oed7e6e5d59ce44c4b18899c6f00ae05c343" cid="ELEM005" name="parseBookList" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="o70d5c9dc78cd4e7689b32282f4b7e1fc787" cid="ELEM006" name="updateStackStatus" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di709834708312910024" cid="REL001" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:21:09" from="di760298016757054969" to="di946605818196977242">
+            <style class="default" />
+            <relation from="di760298016757054969" to="di946605818196977242">
+              <start-role id="umlar-7b2c1453-32f6-4b0f-9a10-c46b9edf84a4" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-933b7ada-0a83-4ea6-bb78-76938d778819" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di283278287153792484" cid="REL002" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:25:30" from="di760298016757054969" to="di645344512140286119">
+            <style class="default" />
+            <relation from="di760298016757054969" to="di645344512140286119">
+              <start-role id="umlar-2e560b29-682b-443b-a23e-410ca4d5a76d" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-104ee959-a470-4625-a732-6c668071a64b" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="1e664581426b4459a6e8f39f9a13e295" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di342678200888575631" iid="c4a54442839f4feca8092070607cc763" name-style="" creation-date="05/24/2020 16:38:22" order-index="0" type="entity">
+            <layout ax="89" ay="113" awidth="491.5" aheight="222" x="89" y="113" width="491.5" height="222" />
+          </item>
+          <item id="di298083993925345570" iid="18c860a598a64180a6b54b4438dbd269" container="di342678200888575631" container-iid="c4a54442839f4feca8092070607cc763" name-style="" creation-date="05/25/2020 15:06:30" order-index="1" type="entity">
+            <layout ax="297.5" ay="161" awidth="261" aheight="83" x="297.5" y="161" width="261" height="83" />
+            <class />
+          </item>
+          <item id="di475029253495823532" iid="8da1bec06ec3436c8d9209d68e3287bd" name-style="" creation-date="05/25/2020 15:13:15" order-index="4" type="entity">
+            <layout ax="87.5" ay="358.75" awidth="193" aheight="134.5" x="87.5" y="358.75" width="193" height="134.5" />
+          </item>
+          <item id="di946605818196977242" iid="89f408b83cc04449bc24fcb99f00f79f" container="di342678200888575631" container-iid="c4a54442839f4feca8092070607cc763" name-style="" creation-date="05/25/2020 15:08:45" order-index="2" type="entity">
+            <layout ax="341.5" ay="263.5" awidth="173" aheight="49" x="341.5" y="263.5" width="173" height="49" />
+            <class />
+          </item>
+          <item id="di645344512140286119" iid="16dbb043ac1744068a420bb19b518af8" container="di475029253495823532" container-iid="8da1bec06ec3436c8d9209d68e3287bd" name-style="" creation-date="05/25/2020 15:13:52" order-index="6" type="entity">
+            <layout ax="115.5" ay="408.5" awidth="138" aheight="66" x="115.5" y="408.5" width="138" height="66" />
+            <class />
+          </item>
+          <item id="di222272084283356672" iid="15238473bbcf45758cf13d5a87567c94" name-style="" creation-date="05/25/2020 15:08:45" order-index="3" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="428" y1="264" x2="427" y2="244" start-border-pos="0.124277457594872" end-border-pos="0.625905797101449" name-position="0,0">
+              <points>
+                <point x="428" y="264" />
+                <point x="427" y="244" />
+              </points>
+            </layout>
+            <relation from="di946605818196977242" from-iid="89f408b83cc04449bc24fcb99f00f79f" to="di298083993925345570" to-iid="18c860a598a64180a6b54b4438dbd269" />
+          </item>
+          <item id="di760298016757054969" iid="23579fe3457f4063bcdfd04cec2ca9ad" container="di342678200888575631" container-iid="c4a54442839f4feca8092070607cc763" name-style="" creation-date="05/25/2020 15:16:35" order-index="7" type="entity">
+            <layout ax="105" ay="161" awidth="158" aheight="117" x="105" y="161" width="158" height="117" />
+            <class />
+          </item>
+          <item id="di709834708312910024" iid="a7aa4e711b70413fb91fbbe4d9ec7926" name-style="" creation-date="05/25/2020 15:21:09" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="263" y1="220" x2="342" y2="288" start-border-pos="0.375" end-border-pos="0.876275510204082" name-position="0,0">
+              <points>
+                <point x="263" y="220" />
+                <point x="342" y="288" />
+              </points>
+            </layout>
+            <relation from="di760298016757054969" from-iid="23579fe3457f4063bcdfd04cec2ca9ad" to="di946605818196977242" to-iid="89f408b83cc04449bc24fcb99f00f79f" />
+          </item>
+          <item id="di283278287153792484" iid="915998181e43438586512a52e14a6161" name-style="" creation-date="05/25/2020 15:25:30" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="184" y1="278" x2="184" y2="408" start-border-pos="0.625" end-border-pos="0.124094202898551" name-position="0,0">
+              <points>
+                <point x="184" y="278" />
+                <point x="184" y="408" />
+              </points>
+            </layout>
+            <relation from="di760298016757054969" from-iid="23579fe3457f4063bcdfd04cec2ca9ad" to="di645344512140286119" to-iid="16dbb043ac1744068a420bb19b518af8" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
