@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/booklist', 'App@show');
+
+Route::post('/addbook', 'Booklist@add');
+
+Route::post('/deletebook', 'Booklist@delete');
+
+Route::get('/{name}', 'hello@show');

@@ -39,7 +39,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>168</value>
+        <value>189</value>
       </counter>
       <counter>
         <item-type type-id="text" type="AbstractTextItem" />
@@ -173,7 +173,7 @@
           <item id="di760298016757054969" cid="C005" type="class" name="ShopMonitor" style-class="" owner="di342678200888575631" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:16:35">
             <style class="default" />
             <operations>
-              <operation id="o9c193bd0e9074af7b77789e98deae034659" cid="ELEM007" name="run" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+              <operation id="o9c193bd0e9074af7b77789e98deae034659" cid="ELEM007" name="handle" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
                 <style class="default" />
               </operation>
               <operation id="o3b2b90358add4b19a3a5f18cc6164403679" cid="ELEM004" name="qcuireBookList" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">

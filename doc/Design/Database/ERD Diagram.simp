@@ -23,7 +23,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>18</value>
+        <value>38</value>
       </counter>
       <counter>
         <item-type type-id="erd-relationship" type="ErdRelation" />
@@ -39,7 +39,7 @@
     <fields>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Erd.ErdEntityAttribute</type>
-        <value>6</value>
+        <value>7</value>
       </counter>
     </fields>
   </counters>
@@ -108,19 +108,22 @@
             <style class="default" />
             <entity description="" />
             <attributes>
+              <attribute uid="a5c3ff409f74e4ac3922f8f37d4083b96231" cid="ELEM006" name="ID" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="true" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
               <attribute uid="a8bb66214653844b28e4a9203527437f9707" cid="ELEM001" name="Product_ID" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
                 <style class="default" />
               </attribute>
-              <attribute uid="ae3363b8becdc47f6af81d22af98b5e25715" cid="ELEM002" name="Book_Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+              <attribute uid="ae3363b8becdc47f6af81d22af98b5e25715" cid="ELEM002" name="Book_Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="true" description="" default-value="" auto-increment="false">
                 <style class="default" />
               </attribute>
-              <attribute uid="a08125e39324c4fa7bb7d494aaa7002ac508" cid="ELEM003" name="Shop_Page_URL" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+              <attribute uid="a08125e39324c4fa7bb7d494aaa7002ac508" cid="ELEM003" name="Shop_Page_URL" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="true" description="" default-value="" auto-increment="false">
                 <style class="default" />
               </attribute>
-              <attribute uid="aeae567d45ce24e3cb47847b856345585623" cid="ELEM004" name="Online_Stock_Status" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+              <attribute uid="aeae567d45ce24e3cb47847b856345585623" cid="ELEM004" name="Online_Stock_Status" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="true" description="" default-value="" auto-increment="false">
                 <style class="default" />
               </attribute>
-              <attribute uid="ae4f7d7e69ed141b5875038acc178b4e9530" cid="ELEM005" name="Shop_Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+              <attribute uid="ae4f7d7e69ed141b5875038acc178b4e9530" cid="ELEM005" name="Shop_Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="true" description="" default-value="" auto-increment="false">
                 <style class="default" />
               </attribute>
             </attributes>
@@ -129,7 +132,7 @@
         </abstract-items>
         <layer id="3dfca5c388b746d9871ca1fe47d97f25" name="Default" visible="true" enabled="true" locked="false">
           <item id="di136666352580037071" iid="cfe0960af06a491e9831edf8f4d85384" name-style="" creation-date="05/24/2020 16:46:07" order-index="0" type="entity">
-            <layout ax="153" ay="184" awidth="260" aheight="115" x="153" y="184" width="260" height="115" />
+            <layout ax="173" ay="215" awidth="268" aheight="131" x="173" y="215" width="268" height="131" />
             <erd-entity show-nullability="true" />
           </item>
         </layer>
