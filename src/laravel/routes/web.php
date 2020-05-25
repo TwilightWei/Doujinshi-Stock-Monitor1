@@ -19,8 +19,8 @@ Route::get('/', function () {
 
 Route::get('/booklist', 'App@show');
 
-Route::post('/addbook', 'Booklist@add');
+Route::put('/addbook', 'Booklist@add');
 
-Route::post('/deletebook', 'Booklist@delete');
+Route::delete('/deletebook', 'Booklist@delete');
 
 Route::get('/{name}', 'hello@show');

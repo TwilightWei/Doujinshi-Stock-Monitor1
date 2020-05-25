@@ -14,7 +14,12 @@ class CreateDoujinshisTable extends Migration
     public function up()
     {
         Schema::create('doujinshis', function (Blueprint $table) {
-            $table->id();
+            $table->string('id')->primary();
+            $table->string('product_id');
+            $table->string('book_name');
+            $table->string('shop_page_url');
+            $table->string('online_stock_status');
+            $table->string('shop_name');
             $table->timestamps();
         });
     }

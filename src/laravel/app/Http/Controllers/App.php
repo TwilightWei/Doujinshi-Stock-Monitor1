@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Doujinshi;
 use Illuminate\Http\Request;
 
 class App extends Controller
@@ -9,6 +10,7 @@ class App extends Controller
     # Show the web page of booklist
     public function show()
     {
-        return view('booklist');
+        $booklist = Doujinshi::all();
+        return view('booklist')->with('booklist', $booklist);
     }
 }
