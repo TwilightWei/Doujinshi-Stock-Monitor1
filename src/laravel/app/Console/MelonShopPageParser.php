@@ -19,13 +19,12 @@ class MelonShopPageParser extends ShopPageParser
         $dom->loadHTML($html);
         $xpath = new \DOMXPath($dom);
 
-        $nodeList = $xpath->query('//div[@class="drop_cart clearfix"]');
-        if ($nodeList->length > 0){
+        $nodelist = $xpath->query('//div[@class="drop_cart clearfix"]');
+        if ($nodelist->length > 0){
             $data = $xpath->query('//span[@class="stock"]')->item(0)->textContent;
-
         } else {
-            $nodeList = $xpath->query('//div[@class="drop_cart"]');
-            $data = $nodeList->item(0)->getElementsByTagName('td')->item(2)->textContent;
+            $nodelist = $xpath->query('//div[@class="drop_cart"]');
+            $data = $nodelist->item(0)->getElementsByTagName('td')->item(2)->textContent;
         }
 
         return $data;
@@ -49,13 +48,13 @@ class MelonShopPageParser extends ShopPageParser
         $node = $dom->getElementById('description');
         $data['book_name'] = $node->getElementsByTagName('td')->item(0)->textContent;
 
-        $nodeList = $xpath->query('//div[@class="drop_cart clearfix"]');
-        if ($nodeList->length > 0){
+        $nodelist = $xpath->query('//div[@class="drop_cart clearfix"]');
+        if ($nodelist->length > 0){
             $data['online_stock_status'] = $xpath->query('//span[@class="stock"]')->item(0)->textContent;
 
         } else {
-            $nodeList = $xpath->query('//div[@class="drop_cart"]');
-            $data['online_stock_status'] = $nodeList->item(0)->getElementsByTagName('td')->item(2)->textContent;
+            $nodelist = $xpath->query('//div[@class="drop_cart"]');
+            $data['online_stock_status'] = $nodelist->item(0)->getElementsByTagName('td')->item(2)->textContent;
         }
 
         return $data;

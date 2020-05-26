@@ -22,5 +22,3 @@ Route::get('/booklist', 'App@show');
 Route::put('/addbook', 'Booklist@add');
 
 Route::delete('/deletebook', 'Booklist@delete');
-
-Route::get('/{name}', 'hello@show');

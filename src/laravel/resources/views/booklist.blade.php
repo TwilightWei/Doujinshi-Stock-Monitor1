@@ -25,7 +25,7 @@
         </div>
         <div class="column">
             <h2>Here is your book list.</h2>
-            <table style="width:100%">
+            <table>
                 <tr>
                     <th><h3>Shop Name</h3></th>
                     <th><h3>Product ID</h3></th>
