@@ -8,19 +8,11 @@
   <counters models="1">
     <entity-names>
       <counter>
-        <item-type type-id="" type="DrawingItem" />
-        <value>4</value>
-      </counter>
-      <counter>
-        <item-type type-id="" type="LineItem" />
+        <item-type type-id="" type="TextItem" />
         <value>5</value>
       </counter>
     </entity-names>
     <entity-ids>
-      <counter>
-        <item-type type-id="" type="AbstractElementGroup" />
-        <value>131</value>
-      </counter>
       <counter>
         <item-type type-id="shape" type="AbstractShapeItem" />
         <value>6</value>
@@ -33,6 +25,14 @@
         <item-type type-id="universal-connector" type="UniversalConnector" />
         <value>8</value>
       </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>36</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="AbstractTextItem" />
+        <value>6</value>
+      </counter>
     </entity-ids>
     <diagrams>
       <counter>
@@ -44,6 +44,7 @@
   </counters>
   <alias-groups />
   <management uid="md-abcb564713f84a4c947ccdd974ca2b64" name="" task-id-sequence="0">
+    <working-schedule uid="ws-abfbd0a78e4646468947643cf90cedae" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
     <persons>
       <person id="P987e8052edc84cb683076d834daa2778">
         <first-name>Tzu-Tan</first-name>
@@ -53,6 +54,7 @@
         <phone-number />
         <description />
         <color>#00000000</color>
+        <working-schedule uid="ws-cdef7437a4c44e4cbe3e0d8470913e48" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
       </person>
     </persons>
     <teams />
@@ -96,13 +98,13 @@
           </authors>
           <description />
           <creation-date>05/22/2020 15:22:34</creation-date>
-          <change-date>05/22/2020 15:49:16</change-date>
+          <change-date>05/27/2020 17:39:38</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items>
           <item id="di726523037118674891" cid="DFF001" type="dfd-data-flow" name="1. Surf the Internet" style-class="" visibility="package" change-tracking-state="added" creator="P987e8052edc84cb683076d834daa2778" creation-date="05/22/2020 15:35:10" from="di787627882816362676" to="di649693179955474208">
-            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
               <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
@@ -126,7 +128,7 @@
             </style>
           </item>
           <item id="di336424637600515656" cid="DFF002" type="dfd-data-flow" name="2. Discover interested doujinshi" style-class="" visibility="package" change-tracking-state="added" creator="P987e8052edc84cb683076d834daa2778" creation-date="05/22/2020 15:35:50" from="di649693179955474208" to="di787627882816362676">
-            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
               <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
@@ -150,7 +152,7 @@
             </style>
           </item>
           <item id="di777220236514362796" cid="DFF003" type="dfd-data-flow" name="3. Search doujinshi in online shops" style-class="" visibility="package" change-tracking-state="added" creator="P987e8052edc84cb683076d834daa2778" creation-date="05/22/2020 15:39:49" from="di787627882816362676" to="di556539278785513072">
-            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
               <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
@@ -174,7 +176,7 @@
             </style>
           </item>
           <item id="di763857171403008362" cid="DFF004" type="dfd-data-flow" name="4. Acquire shopping page information" style-class="" visibility="package" change-tracking-state="added" creator="P987e8052edc84cb683076d834daa2778" creation-date="05/22/2020 15:41:32" from="di556539278785513072">
-            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
               <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
@@ -198,7 +200,7 @@
             </style>
           </item>
           <item id="di175062553617713970" cid="DFF005" type="dfd-data-flow" name="5. Offer shopping page information and order the doujinshi" style-class="" visibility="package" change-tracking-state="added" creator="P987e8052edc84cb683076d834daa2778" creation-date="05/22/2020 15:49:16" from="di787627882816362676" to="di763128346437035691">
-            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
               <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
@@ -283,6 +285,34 @@
               </points>
             </layout>
             <relation from="di787627882816362676" from-iid="8969a970024e4957a52c990137b779f2" to="di763128346437035691" to-iid="64ca7f8dbafd4d6381c666bb0b169084" />
+          </item>
+          <item id="di735705281651387941" iid="07cee38f0ce34969ad669bc594e70f43" name="Element5" name-style="" creation-date="05/27/2020 17:36:49" order-index="9" type="drawing-text">
+            <layout ax="298" ay="475" awidth="64" aheight="26" x="298" y="475" width="64" height="26" />
+            <drawing-text>
+              <text>Buyer</text>
+            </drawing-text>
+            <style class="default" />
+          </item>
+          <item id="di735705281651387941" iid="1721b8bfde6541baa4cb6ca4ca242d65" name="Element5" name-style="" creation-date="05/27/2020 17:36:49" order-index="9" type="drawing-text">
+            <layout ax="708" ay="475" awidth="134" aheight="26" x="708" y="475" width="134" height="26" />
+            <drawing-text>
+              <text>Third-party Seller</text>
+            </drawing-text>
+            <style class="default" />
+          </item>
+          <item id="di735705281651387941" iid="bb407e93cc6d46588cfddb26d7f84535" name="Element5" name-style="" creation-date="05/27/2020 17:36:49" order-index="9" type="drawing-text">
+            <layout ax="641" ay="174" awidth="165" aheight="26" x="641" y="174" width="165" height="26" />
+            <drawing-text>
+              <text>Online Donjinshi Shop</text>
+            </drawing-text>
+            <style class="default" />
+          </item>
+          <item id="di735705281651387941" iid="3cbf2b7e531e4c3f89c866005d24e9d8" name="Element5" name-style="" creation-date="05/27/2020 17:36:49" order-index="9" type="drawing-text">
+            <layout ax="187" ay="148" awidth="111" aheight="26" x="187" y="148" width="111" height="26" />
+            <drawing-text>
+              <text>Social Network</text>
+            </drawing-text>
+            <style class="default" />
           </item>
         </layer>
       </diagram>
