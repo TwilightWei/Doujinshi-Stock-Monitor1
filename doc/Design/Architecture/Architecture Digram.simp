@@ -47,7 +47,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>280</value>
+        <value>294</value>
       </counter>
       <counter>
         <item-type type-id="relationship" type="UmlAssociation" />

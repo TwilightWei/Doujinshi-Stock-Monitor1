@@ -29,7 +29,7 @@
       </counter>
       <counter>
         <item-type type-id="fragment" type="UmlFragment" />
-        <value>1</value>
+        <value>2</value>
       </counter>
     </entity-names>
     <entity-ids>
@@ -54,12 +54,12 @@
         <value>26</value>
       </counter>
       <counter>
-        <item-type type-id="" type="AbstractElementGroup" />
-        <value>250</value>
+        <item-type type-id="fragment" type="UmlFragment" />
+        <value>3</value>
       </counter>
       <counter>
-        <item-type type-id="fragment" type="UmlFragment" />
-        <value>2</value>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>9</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -126,7 +126,7 @@
           </authors>
           <description />
           <creation-date>05/24/2020 16:24:26</creation-date>
-          <change-date>05/27/2020 17:20:38</change-date>
+          <change-date>05/27/2020 18:17:50</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -153,7 +153,7 @@
             <style class="default" />
             <lifeline classifier-name="" is-active="false" is-multi-object="false" />
           </item>
-          <item id="di462984301842929901" cid="AB001" type="activation-bar" name="ExecutionOccurrence1" style-class="" owner="di679706549957756748" visibility="package" change-tracking-state="added" creator="Pc659fe56ee82449fa1241cac5c9f3239" creation-date="05/26/2020 23:54:16">
+          <item id="di462984301842929901" cid="AB001" type="activation-bar" name="ExecutionOccurrence1" style-class="" visibility="package" change-tracking-state="added" creator="Pc659fe56ee82449fa1241cac5c9f3239" creation-date="05/26/2020 23:54:16">
             <style class="default" />
           </item>
           <item id="di280557922746353214" cid="AB001" type="activation-bar" name="ExecutionOccurrence1" style-class="" owner="di920523075116472900" visibility="package" change-tracking-state="added" creator="Pc659fe56ee82449fa1241cac5c9f3239" creation-date="05/26/2020 23:54:16">
@@ -243,6 +243,12 @@
               <operands />
             </fragment>
           </item>
+          <item id="di868483777543932821" cid="FR002" type="fragment" name="Send email when low stock books exist" style-class="" visibility="package" change-tracking-state="added" creator="Pc659fe56ee82449fa1241cac5c9f3239" creation-date="05/27/2020 18:17:50">
+            <style class="default" />
+            <fragment operator="opt">
+              <operands />
+            </fragment>
+          </item>
         </abstract-items>
         <layer id="6b0f3262a732441792eb105200ea3e74" name="Default" visible="true" enabled="true" locked="false">
           <item id="di920523075116472900" iid="d7898223127f4d829bfc023963befafc" name-style="" creation-date="05/26/2020 23:48:06" order-index="2" type="lifeline">
@@ -318,6 +324,9 @@
           </item>
           <item id="di496512671163879994" iid="ff4110a54f2a4a688b2816f9ad104f05" name-style="" creation-date="05/27/2020 17:20:38" order-index="26" type="entity">
             <layout ax="460" ay="262.5" awidth="677" aheight="163.5" x="460" y="262.5" width="677" height="163.5" />
+          </item>
+          <item id="di868483777543932821" iid="c7d719f0a4644fc984dc3beb7e7ea98d" name-style="" creation-date="05/27/2020 18:17:50" order-index="27" type="entity">
+            <layout ax="281" ay="435" awidth="662" aheight="103" x="281" y="435" width="662" height="103" />
           </item>
         </layer>
       </diagram>
