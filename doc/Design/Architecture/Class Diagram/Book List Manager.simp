@@ -27,7 +27,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>175</value>
+        <value>187</value>
       </counter>
       <counter>
         <item-type type-id="class" type="UmlClass" />
@@ -35,7 +35,7 @@
       </counter>
       <counter>
         <item-type type-id="universal-connector" type="UniversalConnector" />
-        <value>4</value>
+        <value>5</value>
       </counter>
       <counter>
         <item-type type-id="relationship" type="UmlAssociation" />
@@ -150,7 +150,7 @@
               </operation>
             </operations>
           </item>
-          <item id="di946605818196977242" cid="C002" type="class" name="ToraShopPageParser" style-class="" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:08:45">
+          <item id="di946605818196977242" cid="C002" type="class" name="MelonShopPageParser" style-class="" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 15:08:45">
             <style class="default" />
           </item>
           <item id="di913831011663851993" cid="REL002" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pcdf2cc839920425d9a9b49a742bc99b3" creation-date="05/25/2020 16:06:42" from="di925374506540209361" to="di946605818196977242">
@@ -163,7 +163,7 @@
         </abstract-items>
         <layer id="1e664581426b4459a6e8f39f9a13e295" name="Default" visible="true" enabled="true" locked="false">
           <item id="di342678200888575631" iid="c4a54442839f4feca8092070607cc763" name-style="" creation-date="05/24/2020 16:38:22" order-index="0" type="entity">
-            <layout ax="151" ay="297" awidth="348" aheight="257" x="151" y="297" width="348" height="257" />
+            <layout ax="151" ay="297" awidth="364" aheight="257" x="151" y="297" width="364" height="257" />
           </item>
           <item id="di925374506540209361" iid="18a7919a033f437a8f730aa06fb00550" container="di342678200888575631" container-iid="c4a54442839f4feca8092070607cc763" name-style="" creation-date="05/25/2020 00:25:48" order-index="2" type="entity">
             <layout ax="173" ay="448.5" awidth="325" aheight="83" x="173" y="448.5" width="325" height="83" />
@@ -174,7 +174,7 @@
             <class />
           </item>
           <item id="di946605818196977242" iid="f2e100b56fd24fa2b336446c2ce4e0b0" name-style="" creation-date="05/25/2020 15:08:45" order-index="2" type="entity">
-            <layout ax="534.5" ay="449" awidth="173" aheight="82" x="534.5" y="449" width="173" height="82" />
+            <layout ax="533.5" ay="465.5" awidth="187" aheight="49" x="533.5" y="465.5" width="187" height="49" />
             <class />
           </item>
           <item id="di913831011663851993" iid="2f6ac3ba751b4c94bc2dd663e69ec27a" name-style="" creation-date="05/25/2020 16:06:42" order-index="5" type="relation">
