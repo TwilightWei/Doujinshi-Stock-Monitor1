@@ -51,7 +51,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>12</value>
+        <value>5</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -176,7 +176,7 @@
           </item>
           <item id="di608545530403677875" cid="SM016" type="sequence-action" name="Message16" style-class="" visibility="package" change-tracking-state="added" creator="Pc659fe56ee82449fa1241cac5c9f3239" creation-date="05/27/2020 15:56:56">
             <style class="default" />
-            <sequence-action type="call" message="2. Send delete request with data of the book" is-asynchronous="false" from="di831735830250574143" to="di806810612259812633" return-value="" assign-to-variable="">
+            <sequence-action type="call" message="2. Send delete request with product id and shop name of the book" is-asynchronous="false" from="di831735830250574143" to="di806810612259812633" return-value="" assign-to-variable="">
               <parameters />
             </sequence-action>
           </item>
@@ -229,7 +229,7 @@
             <sequence-action from="di462984301842929901" to="di831735830250574143" show-sequence-number="false" />
           </item>
           <item id="di608545530403677875" iid="887fd28a0b3747e896edb62e001e3b54" name-style="" creation-date="05/27/2020 15:56:56" order-index="14" type="sequence-action">
-            <layout x1="540" y1="223" x2="710" y2="223" ax="540" ay="208" awidth="170" aheight="20" x="540" y="208" width="170" height="20" message-x="0" message-y="-10" message-width="174" />
+            <layout x1="540" y1="223" x2="710" y2="223" ax="540" ay="208" awidth="170" aheight="20" x="540" y="208" width="170" height="20" message-x="-1" message-y="-10" message-width="174" />
             <sequence-action from="di831735830250574143" to="di806810612259812633" show-sequence-number="false" />
           </item>
           <item id="di661343738277123083" iid="3f57a97e88dc453fb18404fc87c80881" name-style="" creation-date="05/27/2020 16:03:02" order-index="15" type="sequence-action">
